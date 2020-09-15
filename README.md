@@ -1,7 +1,13 @@
 echo "# mebliparser" >> README.md
+
 git init
-git add README.md
-git commit -m "first commit"
+
+git add .
+
+git commit -m "add file"
+
 git branch -M master
-git remote add origin git@github.com:onemorefelix/mebliparser.git
+
+git remote add origin https://github.com/onemorefelix/mebliparser.git
+
 git push -u origin master
